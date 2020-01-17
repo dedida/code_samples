@@ -1,0 +1,5 @@
+Scooby 9
+Shaggy 7
+Daphne 7
+Velma 6
+Freddy 5

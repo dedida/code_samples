@@ -1,0 +1,14 @@
+ Did you attempt to make your computer player very smart -- i.e., do something more clever than just pick a random legal move?
+I attempted to make my computer player kind of smart, in a sense that it has a game strategy. For the first half of the game it will make moves that flip as few tiles as possible, this in turn limits the movement of the other player. Then for the second half of the game the computer would make more aggressive moves that flips as many tiles as possible. 
+
+If so, were you able to accomplish this? Is your computer player as smart as you would like?
+I was able to make some methods that were able to accomplish this, and I am satisfied with my computer's level of intelligence.
+
+How did you determine which square to play next?  Tell us about your “pick next move” algorithm.
+My "pick next move" algorithm consisted of looking at all the available spaces left and comparing the number of tiles that will be flipped for that move. If it was the first half of the game it would select for the move that had the lowest amount of tiles flipped, and the reverse if it was the last half of the game. 
+
+How often did your computer program beat you, or your friends, or whoever tested it out for you?
+The computer beat me twice, and tied once. Other than that it would lose. My friend who never played Othello before was also able to beat it. 
+
+How would you improve it in the future? 
+In the future I would like to implement more than one type of game strategy because I imagine as the user plays more rounds they will get an idea of what the computer's strategy is, so if there were multiple strategies the computer could choose from for each game, then the user won't be able to predict what the computer's move will be. 
